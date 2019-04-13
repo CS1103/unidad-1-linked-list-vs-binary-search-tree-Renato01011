@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/BinarySearchTree.cpp" "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/BinarySearchTree.cpp.o"
-  "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/LinkedList.cpp" "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/LinkedList.cpp.o"
-  "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.cpp" "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/Location.cpp.o"
-  "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/main.cpp" "/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/main.cpp.o"
+  "D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/BinarySearchTree.cpp" "D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/BinarySearchTree.cpp.obj"
+  "D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/LinkedList.cpp" "D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/LinkedList.cpp.obj"
+  "D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/Location.cpp" "D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/Location.cpp.obj"
+  "D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/main.cpp" "D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/cmake-build-debug/CMakeFiles/LinkedListVsBinaryTree.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

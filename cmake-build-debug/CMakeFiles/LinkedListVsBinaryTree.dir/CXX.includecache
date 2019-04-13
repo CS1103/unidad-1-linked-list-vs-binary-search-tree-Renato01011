@@ -6,19 +6,49 @@
 
 #IncludeRegexTransform: 
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/BinarySearchTree.h
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/BinarySearchTree.cpp
+iostream
+-
+string
+-
 Location.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/Location.h
+fstream
+-
+BinarySearchTree.h
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/BinarySearchTree.h
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/LinkedList.h
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/BinarySearchTree.h
 Location.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/Location.h
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/LinkedList.cpp
+LinkedList.h
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/LinkedList.h
+fstream
+-
+vector
+-
+sstream
+-
+iostream
+-
+
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/LinkedList.h
+Location.h
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/Location.h
+fstream
+-
+string
+-
+vector
+-
+
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/Location.h
 string
 -
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/main.cpp
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/main.cpp
 iostream
 -
 sstream
@@ -29,8 +59,12 @@ vector
 -
 fstream
 -
+chrono
+-
+algorithm
+-
 LinkedList.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/LinkedList.h
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/LinkedList.h
 BinarySearchTree.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/BinarySearchTree.h
+D:/Universidad/Ciclo 3/POO 2/unidad-1-linked-list-vs-binary-search-tree-Renato01011/BinarySearchTree.h
 

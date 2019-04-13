@@ -8,27 +8,28 @@
 
 namespace UTEC {
 
-    struct Node {
+    struct Node1 {
+        Node1 (std::string position_id, std::string state_code, std::string county, std::string latitude, std::string longitude, std::string line, std::string construction);
+        Node1 (Location &_data);
         Location data;
-        Node* right;
-        Node* left;
+        Node1 *right;
+        Node1 *left;
     };
 
     class BinarySearchTree {
-        Node* root;
+        Node1 *root;
     public:
         BinarySearchTree();
         ~BinarySearchTree();
-        void insert(Location data);
-        void clear();
+        void insert_binarytree(Location data);
+        void clear(Node1* NodeToDelete);
         bool is_empty();
-        Node* get_root();
-        Node* search(std::string position_id);
-        void print();
+        Node1 *get_root();
+        void search_binarytree(std::string position_id);
+        void print_binarytree(Node1* NodeToPrint);
+        void load_locations_binarytree(std::string file_name);
     };
 
-    void load_locations(BinarySearchTree* linked_list, std::string file_name);
-    void print_node(Node* node);
 }
 
 #endif //LINKEDLISTVSBINARYTREE_BINARYTREE_H
