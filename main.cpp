@@ -5,6 +5,7 @@
 #include <fstream>
 #include <chrono>
 #include <algorithm>
+#include <assert.h>
 #include "LinkedList.h"
 #include "BinarySearchTree.h"
 
@@ -24,16 +25,24 @@ int main() {
     BinarySearchTree bst;
     std::vector <int> vsearch;
     std::string position_id_search;
+    Location Location_test;
+    Location_test.filldata("548965", "FL","PINELLAS COUNTY", "20.015797", "-85.654789", "Residential", "Wood");
 
 
     // Grabar Datos del archivo "Locations.csv" en ll
     ll.load_locations(LOCATION_FILE);
+    assert(ll.size() == 36635);
     // Grabar Datos del archivo "Locations.csv" en bst
     bst.load_locations_binarytree(LOCATION_FILE);
+    assert(!bst.is_empty());
     // Leer los datos del archivo "Search.txt" y grabarlos en vsearch
     while (getline(archivo, position_id_search, '\n')) {
         vsearch.push_back(stoi(position_id_search));
     }
+
+    //Check insert
+    ll.insert_linkedlist(2, Location_test);
+    bst.insert_binarytree(Location_test);
 
     // Utilizar cada item de vsearch para buscar los lugares en ll y bsd
 
